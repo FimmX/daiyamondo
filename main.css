@@ -1,0 +1,12 @@
+body{background-color:gray;color: white;}
+.navbar{border-bottom: saddlebrown 3px solid;opacity: .7;}
+#home-section{background: url('img/cPryUMQ.jpg') no-repeat ;min-height: 84vh; background-size: cover;background-attachment: fixed;}
+.dark-overlay{background-color: rgba(0, 0,0, .7);position: absolute ;top: 0;left: 0; width: 100%;min-width: 100%;}
+.home-inner{padding: 177px 200px;}
+#evento-section{background: url('img/event-daiyamondo.jpg') no-repeat;background-size: cover;background-attachment: fixed;}
+#evento-section2{background: url('img/event-daiyamondoa.jpg') no-repeat;background-size: cover;background-attachment: fixed;}
+.contact-section{background: url('img/Contact-Daiyamondoa.jpg') no-repeat; background-size: cover;background-attachment: fixed;}
+.overlay{background-color: rgba(0, 0, 0, 0.842);}
+@media (max-width:992px){.homme-inner{padding: 150px 100px}}
+@media (max-width:768px){.homme-inner{padding: 200px 110px}#home-section{min-height: 87vh}}
+@media (max-width:460px){.homme-inner{padding: 200px 110px}#home-section{min-height: 95vh}}
